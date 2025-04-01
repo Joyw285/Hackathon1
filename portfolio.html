@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <style>
+        body {
+            font-family: Georgia, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#e607f1;
+            text-align: center;
+        }
+        header {
+            background:#df31d4;
+            color: #9b2525;
+            padding: 1em;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .project {
+            background: #dbaded;
+            padding: 15%;
+            margin: 10% auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            width: 50%;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #a04c8f;
+            border-radius: 5px;
+        }
+        button {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #555;
+        }
+        footer {
+            background:#df31d4 ;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+    <p>Hi there.</p>
+        <p>My name is Joy Wucha. I'm a passionate web developer based in  Nairobi, Kenya with a love for creating efficient websites.</p>
+        <p>I am proficient in using HTML,CSS,python and Javascript computer languages. Attached  <a href="cv.pdf" download class="cv-link">here</a> is my Resume. </p>
+    <h3>Educational background</h3>
+    <p>Certificate In Multimedia - African Digital Media Institute </p>
+    <p>Software Engineering - Power learn Project Academy</p>
+ <h4>SKills</h4>
+ <p> Tech Innovations</p>
+ <p> Web design and development</p>
+ <p>UI/UX design </p>
+</section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Want to check out some of my projects.They are linked below. </p>
+        <div class="project">
+            <h3>Project One</h3>
+            <p>This project is a menu for a restaurants menu with its prices. I used HTML and Css languages to create this website.Check it out <a href="https://github.com/Joyw285/Beads-business-website/tree/main" target="_blank">here</a></p>
+
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <p>This is a website for a business on their products for sell.It was built with Html,Css and python languages. also some of javascript was used.Check it out <a href="https://github.com/Joyw285/Beads-business-website/tree/main" target="_blank">here</a> </p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+     <p>Feel free to reach out incase of any questions</p>
+        <p>Email: Joywucha28@gmail.com</p>
+        <p>Phone Number: +254748505384</p>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+    </section>
+    <footer>
+        <p>&copy; 2025 Joy Wucha. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
