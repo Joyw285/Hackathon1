@@ -39,6 +39,18 @@
             width: 80%;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        .cv-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cv-link:hover {
+            background: #0056b3;
+        }
         form {
             background: #fff;
             padding: 20px;
@@ -92,7 +104,7 @@
         <h2>About Me</h2>
     <p>Hi there.</p>
         <p>My name is Joy Wucha. I'm a passionate web developer based in  Nairobi, Kenya with a love for creating efficient websites.</p>
-        <p>I am proficient in using HTML,CSS,python and Javascript computer languages. Attached  <a href="cv.pdf" download class="cv-link">here</a> is my Resume. </p>
+        <p>I am proficient in using HTML,CSS,python and Javascript computer languages. Attached  <a href="file:///C:/Users/Nuru/Desktop/Joy.PLP/JOY%20SE.CV.pdf" download class="cv-link">here</a> is my Resume. </p>
     <h3>Educational background</h3>
     <p>Certificate In Multimedia - African Digital Media Institute </p>
     <p>Software Engineering - Power learn Project Academy</p>
