@@ -117,12 +117,12 @@
         <h2>Projects</h2>
         <p>Want to check out some of my projects.They are linked below. </p>
         <div class="project">
-            <h3>Project One</h3>
+            <h3>Restaurant Menu</h3>
             <p>This project is a menu for a restaurants menu with its prices. I used HTML and Css languages to create this website.Check it out <a href="https://github.com/Joyw285/Beads-business-website/tree/main" target="_blank">here</a></p>
 
         </div>
         <div class="project">
-            <h3>Project Two</h3>
+            <h3>Business product</h3>
             <p>This is a website for a business on their products for sell.It was built with Html,Css and python languages. also some of javascript was used.Check it out <a href="https://github.com/Joyw285/Beads-business-website/tree/main" target="_blank">here</a> </p>
         </div>
     </section>
@@ -130,8 +130,8 @@
     <section id="contact">
         <h2>Contact Me</h2>
      <p>Feel free to reach out incase of any questions</p>
-        <p>Email: Joywucha28@gmail.com</p>
-        <p>Phone Number: +254748505384</p>
+<p>📧 Email: <a href="mailto:Joywucha28@gmail.com">Joywucha28@gmail.com</a></p>
+        <p>📞+254748505384</p>
         <form action="#" method="POST">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
